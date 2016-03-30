@@ -3,8 +3,9 @@ using System.Web.Optimization;
 
 namespace WebApp_OpenIDConnect_DotNet1
 {
+    //this is the minor chang to one of the files
     public class BundleConfig
-    {
+    {  
         // For more information on bundling, visit http://go.microsoft.com/fwlink/?LinkId=301862
         public static void RegisterBundles(BundleCollection bundles)
         {
@@ -22,7 +23,7 @@ namespace WebApp_OpenIDConnect_DotNet1
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css")); 
         }
     }
 }
