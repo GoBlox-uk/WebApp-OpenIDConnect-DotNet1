@@ -27,6 +27,9 @@ using Microsoft.Owin.Security;
 
 namespace WebApp_OpenIDConnect_DotNet1.Controllers
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class AccountController : Controller
     {
         public void SignIn()
